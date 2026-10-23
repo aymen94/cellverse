@@ -2,7 +2,7 @@
 
 *Explore life at the molecular level.*
 
-CellVerse is an interactive 3D explorer of a eukaryotic animal cell, the chemical elements of life and the four families of biological macromolecules, with a rule-based molecular assembly lab and guided missions. All 3D rendering uses [WAMR3D](https://www.npmjs.com/package/wamr3d) (WebGPU, with its own WebGL 2 fallback). There is no Three.js in the project or its dependency tree.
+CellVerse is an interactive 3D explorer of a eukaryotic animal cell, the chemical elements of life and the four families of biological macromolecules, with a rule-based molecular assembly lab and guided missions. All 3D rendering uses [WAMR3D](https://www.npmjs.com/package/wamr3d) (WebGPU, with its own WebGL 2 fallback).
 
 - Repository: <https://github.com/aymen94/cellverse>
 - Issues: <https://github.com/aymen94/cellverse/issues>
