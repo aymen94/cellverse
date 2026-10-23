@@ -1,0 +1,56 @@
+{
+  "name": "cellverse",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive 3D explorer of a eukaryotic animal cell, the chemical elements of life and biological macromolecules, with a rule-based molecular assembly lab, rendered with WAMR3D.",
+  "keywords": [
+    "biology",
+    "cell",
+    "organelles",
+    "chemistry",
+    "molecules",
+    "education",
+    "3d",
+    "webgpu",
+    "webgl",
+    "wamr3d",
+    "react",
+    "vite"
+  ],
+  "homepage": "https://github.com/aymen94/cellverse#readme",
+  "bugs": {
+    "url": "https://github.com/aymen94/cellverse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymen94/cellverse.git"
+  },
+  "author": "aymen94 <aymenadvance@gmail.com>",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "fetch:structures": "node scripts/fetch-structures.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.61.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wamr3d": "^0.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.5",
+    "vitest": "^3.2.7"
+  }
+}
